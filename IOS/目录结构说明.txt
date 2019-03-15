@@ -1,0 +1,4 @@
+1.AVCamBuildingACameraApp
+
+ios自带的demo,camera模块自带的demo,下载地址:
+https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/avcam_building_a_camera_app

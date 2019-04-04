@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
